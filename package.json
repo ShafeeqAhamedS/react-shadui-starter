@@ -36,5 +36,14 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0"
+  },
+  "overrides": {
+    "svgo": {
+      "nth-check": ">=2.0.2"
+    },
+    "react-scripts": {
+      "postcss": ">=8.4.31",
+      "workbox-webpack-plugin": ">=7.1.0"
+    }
   }
 }
